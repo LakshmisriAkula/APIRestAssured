@@ -13,7 +13,7 @@ public class Assignment2 {
 
 	String post_Req_URL = "https://api.restful-api.dev/objects";
 
-	@Test
+	@Test(priority=1)
 	public void PostRequestUsingHashMap() {
 
 		HashMap<String, Object> data = new HashMap<String, Object>();
@@ -32,7 +32,7 @@ public class Assignment2 {
 
 	}
 
-	@Test
+	@Test(priority=2)
 	public void PostRequestUsingPojo() {
 
 		MacBookData macData = new MacBookData();
