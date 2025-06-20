@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.response.Response;
 
-public class BearerTokenAuthorization {
+public class BearerTokenAuthentication {
 
 	@Test
 	public void bearerTokenTest() {
